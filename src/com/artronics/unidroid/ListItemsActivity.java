@@ -1,11 +1,10 @@
 package com.artronics.unidroid;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class ListItemsActivity extends Activity {
+public class ListItemsActivity extends BaseActivity {
 
 	/** Called when the activity is first created. */
 	@Override

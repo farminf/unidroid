@@ -8,7 +8,7 @@ public class HelpActivity extends BaseActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 	    super.onCreate(savedInstanceState);
-	
+	    setContentView(R.layout.activity_help);
 	    // TODO Auto-generated method stub
 	}
 
