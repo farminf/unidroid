@@ -34,13 +34,13 @@
             android:layout_alignBottom="@layout/activity_locations"
             android:background="#000000"
             android:orientation="vertical" >
-
-            <ListView 
-      			android:id="@+id/listOfItems" 
-      			android:layout_height="fill_parent"
-      			android:layout_width="fill_parent"
-      			android:background="#FFFFFF" 
-      			android:onClick="showItemContents" />
+            
+            <ListView
+  				android:id="@+id/listOfItems"
+  				android:layout_width="match_parent"
+  				android:layout_height="wrap_content" 
+  				android:background="#FFFFFF">
+			</ListView> 
             
         </LinearLayout>
 
