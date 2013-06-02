@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Unidroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="SettingActivity">SettingActivity</string>
+    <string name="HelpActivity">HelpActivity</string>
+    <string name="AboutActivity">AboutActivity</string>
+    <string name="LocationsActivity">LocationsActivity</string>
+    <string name="ProfessorsActivity">ProfessorsActivity</string>
+    <string name="ListItemsActivity">ListItemsActivity</string>
+    <string name="PresentationActivity">PresentationActivity</string>
+	<string name="MapActivity">MapActivity</string>
+	<string name="strBolognaUniversity">University of Bologna</string>
+	<string name="strMilanUniversity">University of Milan</string>
+	<string name="strLocations">Locations</string>
+	<string name="strProfessors">Professors</string>
+	<string name="strLAB">LAB</string>
+	<string name="strClass">Class</string>
+	<string name="strLibrary">Library</string>
+	<string name="strOffice">Office</string>
+	<string name="strMenuSetting">Setting</string>
+	<string name="strMenuHelp">Help</string>
+	<string name="strMenuAbout">About</string>
+    
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.artronics.unidroid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.artronics.unidroid.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/SettingActivity" android:name="SettingActivity"></activity>
+        <activity android:label="@string/HelpActivity" android:name="HelpActivity"></activity>
+        <activity android:label="@string/AboutActivity" android:name="AboutActivity"></activity>
+        <activity android:label="@string/LocationsActivity" android:name="LocationsActivity"></activity>
+        <activity android:label="@string/ProfessorsActivity" android:name="ProfessorsActivity"></activity>
+        <activity android:label="@string/ListItemsActivity" android:name="ListItemsActivity"></activity>
+        <activity android:label="@string/PresentationActivity" android:name="PresentationActivity"></activity>
+        <activity android:label="@string/MapActivity" android:name="MapActivity"></activity>
+    </application>
+
+</manifest>

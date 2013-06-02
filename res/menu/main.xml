@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/mnuSetting" android:title="@string/strMenuSetting" android:orderInCategory="101"></item>
+    <item android:id="@+id/mnuHelp" android:title="@string/strMenuHelp" android:orderInCategory="102"></item>
+    <item android:id="@+id/mnuAbout" android:title="@string/strMenuAbout" android:orderInCategory="103"></item>
+ 
+
+</menu>
