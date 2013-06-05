@@ -22,6 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:label="@string/UniversityMainActivity" android:name="UniversityMainActivity"></activity>
         <activity android:label="@string/SettingActivity" android:name="SettingActivity"></activity>
         <activity android:label="@string/HelpActivity" android:name="HelpActivity"></activity>
         <activity android:label="@string/AboutActivity" android:name="AboutActivity"></activity>

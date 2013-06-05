@@ -23,5 +23,6 @@
 	<string name="strMenuSetting">Setting</string>
 	<string name="strMenuHelp">Help</string>
 	<string name="strMenuAbout">About</string>
+	<string name="UniversityMainActivity">UniversityMainActivity</string>
     
 </resources>
