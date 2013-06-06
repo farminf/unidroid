@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="university">
-        <item>unibo</item>
-        <item>polimi</item>
-        <item>polito</item>
-    </string-array>
-    <string-array name="proffesor">
+
+    <string-array name="professor">
         <item>Testiano Testi</item>
         <item>Giovanni Corazza</item>
         <item>Massimo Neri</item>

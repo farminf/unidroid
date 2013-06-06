@@ -20,7 +20,7 @@ public class ProfessorsActivity extends ListActivity {
 		// TODO Auto-generated method stub
 
 		String[] jprofessorlist = getResources()
-				.getStringArray(R.array.proffesor);
+				.getStringArray(R.array.professor);
 		this.setListAdapter(new ArrayAdapter<String>(this,
 				R.layout.activity_professors, R.id.professorlist, jprofessorlist));
 		ListView lv = getListView();

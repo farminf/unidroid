@@ -9,13 +9,12 @@ package com.artronics.unidroid;
 
 public final class R {
     public static final class array {
-        public static final int Classes=0x7f040004;
-        public static final int labs=0x7f040003;
-        public static final int library=0x7f040005;
-        public static final int location=0x7f040002;
-        public static final int proffesor=0x7f040001;
-        public static final int university=0x7f040000;
-        public static final int universitydesc=0x7f040006;
+        public static final int Classes=0x7f040003;
+        public static final int labs=0x7f040002;
+        public static final int library=0x7f040004;
+        public static final int location=0x7f040001;
+        public static final int professor=0x7f040000;
+        public static final int universitydesc=0x7f040005;
     }
     public static final class attr {
     }

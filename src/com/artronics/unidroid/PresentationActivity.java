@@ -47,7 +47,7 @@ public class PresentationActivity extends ListActivity {
 		} else if (parameter.equals("Giovanni Corazza")) {
 
 			String[] jprofessorlist = getResources().getStringArray(
-					R.array.proffesor);
+					R.array.professor);
 			this.setListAdapter(new ArrayAdapter<String>(this,
 					R.layout.activity_presentation, R.id.universitylist,
 					jprofessorlist));
