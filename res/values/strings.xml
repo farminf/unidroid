@@ -11,7 +11,7 @@
     <string name="ProfessorsActivity">ProfessorsActivity</string>
     <string name="ListItemsActivity">ListItemsActivity</string>
     <string name="PresentationActivity">PresentationActivity</string>
-	<string name="MapActivity">MapActivity</string>
+	<string name="MapActivity">Map</string>
 	<string name="strBolognaUniversity">University of Bologna</string>
 	<string name="strMilanUniversity">University of Milan</string>
 	<string name="strLocations">Locations</string>
