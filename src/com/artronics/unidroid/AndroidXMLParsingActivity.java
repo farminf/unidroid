@@ -13,7 +13,6 @@ import android.app.Activity;
 import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
