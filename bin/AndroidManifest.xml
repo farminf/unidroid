@@ -31,6 +31,8 @@
         <activity android:label="@string/ListItemsActivity" android:name="ListItemsActivity"></activity>
         <activity android:label="@string/PresentationActivity" android:name="PresentationActivity"></activity>
         <activity android:label="@string/MapActivity" android:name="MapActivity"></activity>
+        <activity android:label="@string/XMLParser" android:name="XMLParser"></activity>
+        <activity android:label="@string/AndroidXMLParsingActivity" android:name="AndroidXMLParsingActivity"></activity>
     </application>
 
 </manifest>

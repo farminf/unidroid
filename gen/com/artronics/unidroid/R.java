@@ -43,10 +43,13 @@ public final class R {
         public static final int listOfItems=0x7f090003;
         public static final int lnlLocations=0x7f090002;
         public static final int locationlist=0x7f090004;
-        public static final int mnuAbout=0x7f09000c;
-        public static final int mnuHelp=0x7f09000b;
-        public static final int mnuSetting=0x7f09000a;
-        public static final int professorlist=0x7f090009;
+        public static final int mnuAbout=0x7f09000f;
+        public static final int mnuHelp=0x7f09000e;
+        public static final int mnuSetting=0x7f09000d;
+        public static final int professorlist=0x7f09000c;
+        public static final int profll=0x7f09000b;
+        public static final int scrollView1=0x7f09000a;
+        public static final int textView1=0x7f090009;
         public static final int universitylist=0x7f090008;
     }
     public static final class layout {
@@ -57,15 +60,17 @@ public final class R {
         public static final int activity_main=0x7f030004;
         public static final int activity_map=0x7f030005;
         public static final int activity_presentation=0x7f030006;
-        public static final int activity_professors=0x7f030007;
-        public static final int activity_setting=0x7f030008;
-        public static final int activity_universitymain=0x7f030009;
+        public static final int activity_professor_details=0x7f030007;
+        public static final int activity_professors=0x7f030008;
+        public static final int activity_setting=0x7f030009;
+        public static final int activity_universitymain=0x7f03000a;
     }
     public static final class menu {
         public static final int main=0x7f080000;
     }
     public static final class string {
         public static final int AboutActivity=0x7f060005;
+        public static final int AndroidXMLParsingActivity=0x7f060018;
         public static final int HelpActivity=0x7f060004;
         public static final int ListItemsActivity=0x7f060008;
         public static final int LocationsActivity=0x7f060006;
@@ -74,9 +79,12 @@ public final class R {
         public static final int ProfessorsActivity=0x7f060007;
         public static final int SettingActivity=0x7f060003;
         public static final int UniversityMainActivity=0x7f060016;
+        public static final int XMLParser=0x7f060019;
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
+        public static final int btnoffice=0x7f060017;
         public static final int hello_world=0x7f060002;
+        public static final int parsed_data=0x7f06001a;
         public static final int strBolognaUniversity=0x7f06000b;
         public static final int strClass=0x7f060010;
         public static final int strLAB=0x7f06000f;

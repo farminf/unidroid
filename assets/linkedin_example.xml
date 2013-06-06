@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  <person>
+  <id>
+  <first-name>
+  <last-name>
+  <headline>
+  <location>
+    <name>
+    <country>
+      <code></code>
+    </country>
+    </name>
+  </location>
+  </headline>
+  </last-name>
+  </first-name>
+  </id>
+  <industry></industry>
+  <distance></distance>
+  <current-status></current-status>
+  <connections total="" ></connections>
+  <summary/>
+  <positions total="">
+    <position>
+      <id>
+      <title>
+      <summary>
+      <start-date>
+        <year></year>
+        <month></month>
+      </start-date>
+      <is-current></is-current>
+      <company>
+        <name></name>
+      </company>
+      </summary>
+      </title>
+      </id>
+    </position>
+  </positions>
+  <member-url-resources>
+    <member-url>
+      <url></url>
+      <name></name>
+    </member-url>
+    </member-url-resources>
+  <api-standard-profile-request>
+    <url>
+    <headers>
+      <http-header>
+        <name></name>
+        <value></value>
+      </http-header>
+    </headers>
+    </url>
+  </api-standard-profile-request>
+  <site-standard-profile-request>
+    <url></url>
+  </site-standard-profile-request>
+  <picture-url></picture-url>
+</person>
+-->
+
+
+<person>
+  <connections total="3">
+    <person>
+      <id>kosMphHb2S</id>
+      <firstname>Testiano</firstname>
+      <lastname>Testi</lastname>
+      <headline>Team Leader at Andriod Project Company</headline>
+      <picture-url></picture-url>
+      <api-standard-profile-request>
+        <url>	</url>
+        <headers total="1">
+          <http-header>
+            <name>x-li-auth-token</name>
+            <value>name:SBq1</value>
+          </http-header>
+        </headers>
+      </api-standard-profile-request>
+      <site-standard-profile-request>
+        <url>http://www.linkedin.com/profile?viewProfile=&amp;key=133153803&amp;authToken=SBq1&amp;authType=name&amp;trk=api*a101945*s101945*</url>
+      </site-standard-profile-request>
+      <location>
+        <name>Italy</name>
+        <country>
+          <code>il</code>
+        </country>
+      </location>
+      <industry>Computer Software</industry>
+    </person>
+
+ </connections>
+</person>

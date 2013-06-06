@@ -30,15 +30,23 @@ public class ProfessorsActivity extends ListActivity {
 
 				// selected item
 				String professor = ((TextView) view).getText().toString();
-
+				if (professor.equals("Testiano Testi")) {
+					//String profname = ((TextView) view).getText().toString();
+					Intent b = new Intent(getApplicationContext(),
+							AndroidXMLParsingActivity.class);
+					// sending data to new activity
+					// i.putExtra("parameter", location);
+					b.putExtra("parameter", "Testiano Testi");
+					startActivity(b);
+				}
 				// Launching new Activity on selecting single List Item
-				Intent i = new Intent(getApplicationContext(),
+				/*Intent i = new Intent(getApplicationContext(),
 						PresentationActivity.class);
 				// sending data to new activity
 				i.putExtra("parameter", professor);
 				startActivity(i);
 
-				// startActivity(i);
+				// startActivity(i);*/
 
 			}
 		});

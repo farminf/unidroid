@@ -52,7 +52,17 @@ public class PresentationActivity extends ListActivity {
 					R.layout.activity_presentation, R.id.universitylist,
 					jprofessorlist));
 
-		}
+		} 
+		
+		//else if (parameter.equals("Testiano Testi")) {
+
+			/*String[] jprofessorlist = getResources().getStringArray(
+					R.array.proffesor);
+			this.setListAdapter(new ArrayAdapter<String>(this,
+					R.layout.activity_presentation, R.id.universitylist,
+					jprofessorlist));*/
+
+		//}
 		ListView lv = getListView();
 		lv.setOnItemClickListener(new OnItemClickListener() {
 			public void onItemClick(AdapterView<?> parent, View view,
@@ -63,13 +73,22 @@ public class PresentationActivity extends ListActivity {
 
 				// Launching new Activity on selecting single List Item
 				if (clickitem.equals("Main Library")) {
-
+					
 					Intent i = new Intent(getApplicationContext(),
 							MapActivity.class);
 					// sending data to new activity
-					//i.putExtra("parameter", location);
+					// i.putExtra("parameter", location);
 					startActivity(i);
 				}
+				/*else if (clickitem.equals("Testiano Testi")) {
+					//String profname = ((TextView) view).getText().toString();
+					Intent b = new Intent(getApplicationContext(),
+							AndroidXMLParsingActivity.class);
+					// sending data to new activity
+					// i.putExtra("parameter", location);
+					b.putExtra("parameter", "Testiano Testi");
+					startActivity(b);
+				}*/
 				// startActivity(i);
 
 			}
